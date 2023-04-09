@@ -62,11 +62,11 @@ const LoginPage = () => {
             <div className="font-bold text-5xl text-[#002D74] mb-4">
               <h2>Login</h2>
             </div>
-            <div className="input-effect-div input-effect">
+            <div className="input-effect-div ">
               <input
                 type="email"
                 name="email"
-                className="effect-20 placeholder:text-transparent"
+                className="effect-20"
                 value={email}
                 onChange={handleEmailChange}
                 required
@@ -77,15 +77,15 @@ const LoginPage = () => {
                 <i></i>
               </span>
             </div>
-            <div className="input-effect-div input-effect">
+            <div className="input-effect-div ">
               <input
                 type="password"
                 name="password"
-                className="effect-20 placeholder:text-transparent"
+                className="effect-20"
                 value={password}
                 onChange={handlePasswordChange}
                 required
-                placeholder="csac"
+                placeholder="password"
               />
               <label>Password</label>
               <span className="focus-border">
