@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import VideoItem from '../video_item/index'
 
-const Videos = () => {
+const VideosList = () => {
   const [video, setVideo] = useState([]);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ const Videos = () => {
   );
 };
 
-export default Videos;
+export default VideosList;
